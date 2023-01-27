@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <form class="generator">
+        <label class="generator__input-name">Wybierz płeć
+            <select class="generator__select" name="gender">
+                <option value="both" selected>Wszyscy</option>
+                <option value="female">Kobiety</option>
+                <option value="male">Mężczyźni</option>
+            </select>
+        </label>
+        <label class="generator__input-name">Liczba osób
+            <input class="generator__input" name="users-number" type="number" value="10">
+        <label class="generator__input-name">Liczba osób
+            <input type="submit" class="button" value="Pobierz użytkowników">    
+            </select>
+        </label>
+    </form>
+    <div class="user-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>

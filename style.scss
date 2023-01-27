@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.user-list{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.user {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.user-image {
+    order: -1;
+}
